@@ -1,0 +1,312 @@
+﻿<!-- Part 1 -->
+<local:MyCard Title="前言" Margin="0,0,0,15">
+	<StackPanel Margin="25,40,23,15">
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+				   Text="当前版本号为:PCL II REM Ver 2.4B" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+				   Text="" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+				   Text="欢迎来到灰尘定制的PCL2启动器！此启动器已被灰尘魔改，如果自己是新手千万别乱动2333" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+				   Text="" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+				   Text="此定制版基于PCL II Beta1.5.3制作，原作者为龙猫。如需获得内测版资格，请自行打赏，灰尘不提供QAQ。" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+				   Text="" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+				   Text="由于最新版本板块为人工管理，且数据需要从Minecraft Wiki手动录入，更新可能会延迟，请谅解！" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+				   Text="" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+				   Text="以后一切的公告基本上都会发布于CNUP论坛，请大家留意，不要错过了一些重要公告。" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+				   Text="" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+				   Text="如果磁贴中按钮仅显示了一半，请手动调整PCL II窗口大小直至适合按钮。" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+				   Text="" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+				   Text="联网更新测试" />
+	</StackPanel>
+</local:MyCard>
+
+
+<!-- Part 2 -->
+<local:MyCard Title="常用网页(国内)" Margin="0,0,0,15">
+	<StackPanel Margin="25,40,23,15">
+		<StackPanel Orientation="Horizontal">
+			<local:MyButton Margin="0,0,20,2" Width="105" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+				   Text="打开 MCBBS" EventType="打开网页" EventData="https://www.mcbbs.net/portal.php" ToolTip="单击以打开 我的世界中文论坛(MCBBS)！" />
+			<local:MyButton Margin="0,0,20,2" Width="105" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+				   Text="打开 MC百科" EventType="打开网页" EventData="https://www.mcmod.cn/" ToolTip="单击以打开 MC百科！" />
+			<local:MyButton Margin="0,0,20,2" Width="145" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+				   Text="打开 CNUP专属论坛" EventType="打开网页" EventData="http://www.cnup.top:25565/bbs/" ToolTip="单击以打开 Minecraft中文下载站！" />
+			<local:MyButton Margin="0,0,20,2" Width="80" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+				   Text="赞助作者" EventType="打开网页" EventData="https://afdian.net/@LTCat" ToolTip="单击以打开 龙猫(PCL II原作者)的爱发电赞助链接！" />
+		</StackPanel>
+	</StackPanel>
+</local:MyCard>
+
+
+<local:MyCard Title="常用网页(国外)" Margin="0,0,0,15">
+	<StackPanel Margin="25,40,23,15">
+		<StackPanel Orientation="Horizontal">
+			<local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+				   Text="打开 CurseForge" EventType="打开网页" EventData="https://www.curseforge.com/minecraft/mc-mods" ToolTip="单击以打开 CurseForge！" />
+			<local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+				   Text="打开 Forge官网" EventType="打开网页" EventData="https://files.minecraftforge.net/" ToolTip="单击以打开 Minecraft Forge官网！" />
+			<local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+				   Text="打开 OptiFine官网"  EventType="打开网页" EventData="https://optifine.net/downloads" ToolTip="单击以打开 OptiFine官网！" />
+			</StackPanel>
+	</StackPanel>
+	<StackPanel Margin="25,90,23,15">
+		<StackPanel Orientation="Horizontal">
+			<local:MyButton Margin="0,0,20,2" Width="130" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+				   Text="打开 Fabric官网" EventType="打开网页" EventData="https://fabricmc.net/" ToolTip="单击以打开 Fabric官网！" />
+			<local:MyButton Margin="0,0,20,2" Width="130" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+				   Text="打开 Spigot官网" EventType="打开网页" EventData="https://www.spigotmc.org/" ToolTip="单击以打开 Spigot官网！" />
+			<local:MyButton Margin="0,0,20,2" Width="150" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+				   Text="打开 MC Wiki官网" EventType="打开网页" EventData="https://minecraft-zh.gamepedia.com/Minecraft_Wiki" ToolTip="单击以打开 Minecraft Forum官网！" />
+		 </StackPanel>
+	</StackPanel>
+</local:MyCard>
+
+
+<!-- Part 3 -->
+<local:MyCard Title="常用版本" Margin="0,0,0,15">
+	<StackPanel Margin="25,40,23,15">
+		<StackPanel Orientation="Horizontal">
+			<local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+				   Text="启动 1.12.2" EventType="启动游戏" EventData="1.12.2" ToolTip="单击以启动 Minecraft 1.12.2！" />
+			<local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+				   Text="启动 1.7.10" EventType="启动游戏" EventData="1.7.10" ToolTip="单击以启动 Minecraft 1.7.10！" />
+			<local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+				   Text="启动 1.8.9" EventType="启动游戏" EventData="1.8.9" ToolTip="单击以启动 Minecraft 1.8.9！" />
+			</StackPanel>
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="PVP端启动" Margin="0,0,0,15">
+	<StackPanel Margin="25,40,23,15">
+		<StackPanel Orientation="Horizontal">
+			<local:MyButton Margin="0,0,20,2" Width="200" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+				   Text="启动 BadLion Client" EventType="启动游戏" EventData="BadLion Client" ToolTip="单击以启动 BadLion Client！" />
+			<local:MyButton Margin="0,0,20,2" Width="200" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+				   Text="启动 Smoke Client" EventType="启动游戏" EventData="Smoke Client" ToolTip="单击以启动 Smoke Client！" />
+		</StackPanel>
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="1.16专区" Margin="0,0,0,15">
+	<StackPanel Margin="25,40,23,15">
+		<StackPanel Orientation="Horizontal">
+			<local:MyButton Margin="0,0,20,2" Width="200" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+				   Text="启动 1.16.4(Forge版)" EventType="启动游戏" EventData="1.16.4(Forge)" ToolTip="单击以启动 Minecraft 1.16.4(Forge)！" />
+			<local:MyButton Margin="0,0,20,2" Width="200" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+				   Text="启动 1.16.4(Fabric版)" EventType="启动游戏" EventData="1.16.4(Fabric)" ToolTip="单击以启动 Minecraft 1.16.4(Fabric)！" />
+			</StackPanel>
+	</StackPanel>
+
+	<StackPanel Margin="25,90,23,15">
+		<StackPanel Orientation="Horizontal">
+			<local:MyButton Margin="0,0,20,2" Width="200" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+				   Text="启动 1.16.5(Forge版)" EventType="启动游戏" EventData="1.16.5(Forge)" ToolTip="单击以启动 Minecraft 1.16.5(Forge)！" />
+			<local:MyButton Margin="0,0,20,2" Width="200" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+				   Text="启动 1.16.5(Fabric版)" EventType="启动游戏" EventData="1.16.5(Fabric)" ToolTip="单击以启动 Minecraft 1.16.5(Fabric)！" />
+		 </StackPanel>
+	</StackPanel>
+</local:MyCard>
+
+
+<!-- Part 4 -->
+<local:MyCard Title="其他" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+	<StackPanel Margin="25,40,23,15">
+		<StackPanel Orientation="Horizontal">
+			<local:MyButton Margin="0,0,20,2" Width="120" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+					Text="打开 cmd" EventType="打开文件" EventData="cmd" ToolTip="单击以启动 Windows Command Block！" />
+			<local:MyButton Margin="0,0,20,2" Width="180" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+					Text="下载 Java_281 x64安装器" EventType="下载文件" EventData="https://gh.con.sh/https://github.com/huichen233/hjdl/releases/download/hjdl/jre-8u281-windows-x64.exe" ToolTip="单击以下载 Java_281 x64安装程序！" />
+			<local:MyButton Margin="0,0,20,2" Width="135" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+					Text="打开 Minecraft官网" EventType="打开网页" EventData="https://www.minecraft.net/zh-hans/" ToolTip="单击以打开 Minecraft中文官网！" />
+			</StackPanel>
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="常用服务器线路" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">   <!-- 今天你吃狗粮了吗 --> <!--没呢亲♪(´ε｀)-->
+	<StackPanel Margin="25,40,23,15">
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+					Text="[正版]Hypixel: mc.hypixel.net" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+					Text="[正版]2B2T: 2b2t.org" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+					Text="[正版]The Hive: play.hivemc.com" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+					Text="[正版]CubeCraft: play.cubecraft.net" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+					Text="[正版]MinePlex: us.mineplex.com" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+					Text="[正版]Syuu China: china.syuu.net" />
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="最新版本" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+	<StackPanel Margin="25,40,23,15">
+		<Image Height="220" HorizontalAlignment="Center" Source="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/8/83/21w05a.png/revision/latest/scale-to-width-down/1170?cb=20210204230502" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2" FontSize='20'
+					Text="Minecraft 21w05b" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2" FontSize='15'
+					Text="更改:" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+					Text="铜块的英文名称从“Copper Block”更改为“Block of Copper”。" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+					Text="删除了铜块的氧化变种以及涂蜡氧化变种英文名称中的“block”单词。" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+					Text="涂蜡铜块的英文名称从“Waxed Copper”改为“Waxed Block of Copper”。" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+					Text="它的ID从waxed_copper改为waxed_copper_block。" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2" FontSize='15'
+					Text="修复:" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+					Text="MC-203813 — 各种铜方块在英语中的命名不一致。" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+					Text="MC-213788 — 游戏会随机卡死。" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+					Text="MC-213802 — 不能正确升级21w05a前世界中的各种铜块。" />
+		<local:MyButton Margin="0,0,20,2" Width="200" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+					Text="查看 Minecraft Wiki" EventType="打开网页" EventData="https://minecraft-zh.gamepedia.com/21w05b" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2" FontSize='20'
+					Text="PCL II Alpha 1.5.8" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+					Text="None" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+					Text="" />
+		<local:MyButton Margin="0,0,20,2" Width="200" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+					Text="查看 PCL II 更新页面" EventType="打开网页" EventData="https://www.afdian.net/p/5dd70500693811eb988452540025c377" />
+	</StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="特别鸣谢" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+	<StackPanel Margin="25,40,23,15">
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+				   Text="LQ_Snow：提出最新版本内容板块的建议" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+				   Text="lzz0403：提供联网更新的更新源" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+				   Text="asbjdj: 协助转换xaml文件" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+				   Text="asbjdj: 提供GoLink检测/下载程序(已废弃)" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+				   Text="YIBO_YUNTIAN: 上报bug反馈" />
+	</StackPanel>
+</local:MyCard>
+
+
+<!-- Part 5 -->
+<!-- 
+常见的属性列表
+
+通用属性：
+ - Width、Height：设置宽度与高度
+ - ToolTip：设置鼠标指向时的提示文本
+ - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - Background：调整背景颜色（使用类似 Background="{DynamicResource ColorBrush5}" 的格式以调用 PCL2 当前的主题颜色，修改末尾的数字编号以改变颜色浓度）
+ - Margin：调整外边距（格式为 左,上,右,下。例如 Margin="0,0,0,2" 即为 2 单位的下边距）
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）
+
+TextBlock 属性：
+ - Text：设置显示的文本（&#xA; 代表换行）
+ - TextWrapping：开启自动换行
+ - FontSize：设置字号
+
+local:MyButton 属性：
+ - Text：设置显示的文本
+ - Padding：设置内边距，格式与 Margin 一致
+ - ColorType：设置颜色主题（Normal、Highlight、Red 三选一，默认为 Normal）
+ - EventData：设置点击时的操作
+	 EventData="启动-1.12.2"：点击时启用当前 Minecraft 文件夹下的 1.12.2 版本，如果没有则弹出错误提示
+	 EventData="https://www.baidu.com/"：点击时打开网页
+
+local:MyCard 属性：
+ - Title：设置显示的标题文本
+ - CanSwap：这张卡片是否可以折叠，True 为是，False 为否
+ - IsSwaped：这张卡片是否默认折叠，要求 CanSwap 必须为 True
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--宁吃了吗-->
